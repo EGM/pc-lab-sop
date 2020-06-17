@@ -16,6 +16,10 @@ Date:______| Lab OOD: ______| Lic. #: ______
 
 Write the current date, your name (if you're the operator of the day), and your license number. Trainees should put down the license number of the lead operator.
 
+#### CCV Online Meters Effluent
+
+Consists of three blocks, CCC #2, CCC #1, plus an extra block of cells. **The first two MUST be filled out daily.** The third is an extra, in the event that one of the meters is out of range and needs to be recalibrated and rechecked.
+
 <table>
   <tr><td>Initials</td><td colspan=2>CCC #2</td></tr>
   <tr><td></td><td>Sampled</td><td>Tested</td></tr>
@@ -38,6 +42,8 @@ Write the current date, your name (if you're the operator of the day), and your 
   - The pH measurement in the lab.
   - The percentage difference between the Cl<sub>2</sub> meter reading and the Cl<sub>2</sub> measurement.
   ```
+  Calculating percentage difference:
+  
   Subtract the smaller of the numbers from the larger number, 
     then divide the difference by the larger measurement. 
     
@@ -45,9 +51,37 @@ Write the current date, your name (if you're the operator of the day), and your 
   
   Example: reading at meter was 3.28, measurement in lab was 3.08
    A) 3.28 - 3.08 = 0.2
-   B) 0.2 / 3.28 = 0.06
-   C) 0.06 * 100 = 6%
+   B) 0.2 ÷ 3.28 = 0.06
+   C) 0.06 × 100 = 6%
   ```
   - The difference between the meter pH and the measured pH.
   - The turbidity -- from the sample pulled at the turbidity sample point.
   - The NO<sub>3</sub> of the effluent.
+
+#### Ditch/RAS Tests
+
+<table>
+  <tr><td></td><td>Ditch</td><td>Ditch</td><td>Ditch</td><td>RAS</td><td>RAS</td><td>RAS</td></tr>
+  <tr><td></td><td>#3</td><td>#4</td><td>#5</td><td>#3</td><td>#4</td><td>#5</td></tr>
+  <tr><td>30 Min</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>60 Min</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>Spin %</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>SVI </td><td></td><td></td></tr>
+  <tr><td>pH  </td><td></td><td></td></tr>
+  <tr><td>Temp</td><td></td><td></td></tr>
+</table>
+
+  - Enter the ditch and RAS settleability at 30 minutes, then at 60 minutes.
+  - Enter the levels of the solids in the centrifuge (spin) tubes.
+  - Enter the SVI (sludge volume index).
+  ```
+  Calculating SVI
+  
+  SVI = 30 Min (Settle Sludge Volume) ÷ MLSS (Mixed Liquor Suspended Solids) × 1,000
+  
+  Example: 30 Min SSV is 890, MLSS is 3,710
+    890 ÷ 3,710 × 1,000 = 240
+  ```
+  - 
+
+#### Raw Influent
