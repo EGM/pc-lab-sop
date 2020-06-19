@@ -82,6 +82,7 @@ Consists of three blocks, CCC #2, CCC #1, plus an extra block of cells. **The fi
   Example: 30 Min SSV is 890, MLSS is 3,710
     890 ÷ 3,710 × 1,000 = 240
   ```
-  - 
+  - Enter the pH measured in the lab of ditches three through five.
+  - Enter the ditch temperatures using the temp taken while taking dissolved oxygen levels.
 
 #### Raw Influent
